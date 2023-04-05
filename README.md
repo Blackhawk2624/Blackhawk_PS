@@ -2,9 +2,9 @@
 
 ## Installing Ardupilot and MAVProxy Ubuntu 20.04
 
-### Video Tutorial at https://youtu.be/1FpJvUVPxL0
+#### Video Tutorial at https://youtu.be/1FpJvUVPxL0
 
-### Clone ArduPilot
+#### Clone ArduPilot
 
 In home directory:
 ```
@@ -14,7 +14,7 @@ git clone https://github.com/ArduPilot/ardupilot.git
 cd ardupilot
 ```
 
-### Install dependencies:
+#### Install dependencies:
 ```
 cd ardupilot
 Tools/environment_install/install-prereqs-ubuntu.sh -y
@@ -25,7 +25,7 @@ reload profile
 . ~/.profile
 ```
 
-### Checkout Latest Copter Build
+#### Checkout Latest Copter Build
 ```
 git checkout Copter-4.2
 git submodule update --init --recursive
