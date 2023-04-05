@@ -111,4 +111,3 @@ In another Terminal (Terminal 2), run SITL:
 cd ~/ardupilot/ArduCopter/
 sim_vehicle.py -v ArduCopter -f gazebo-iris --console
 ```
-
