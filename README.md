@@ -65,7 +65,6 @@ sudo apt update
 
 Install Gazebo:
 
-### Ubuntu [***20.04***]
 ```
 sudo apt-get install gazebo11 libgazebo11-dev
 ```
@@ -79,7 +78,7 @@ cd ~
 git clone https://github.com/khancyr/ardupilot_gazebo.git
 cd ardupilot_gazebo
 ```
-```
+
 build and install plugin
 ```
 mkdir build
