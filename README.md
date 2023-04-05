@@ -2,9 +2,9 @@
 
 ## Installing Ardupilot and MAVProxy Ubuntu 20.04
 
-#### Video Tutorial at https://youtu.be/1FpJvUVPxL0
+### Video Tutorial at https://youtu.be/1FpJvUVPxL0
 
-#### Clone ArduPilot
+### Clone ArduPilot
 
 In home directory:
 ```
@@ -14,7 +14,7 @@ git clone https://github.com/ArduPilot/ardupilot.git
 cd ardupilot
 ```
 
-#### Install dependencies:
+### Install dependencies:
 ```
 cd ardupilot
 Tools/environment_install/install-prereqs-ubuntu.sh -y
@@ -25,7 +25,7 @@ reload profile
 . ~/.profile
 ```
 
-#### Checkout Latest Copter Build
+### Checkout Latest Copter Build
 ```
 git checkout Copter-4.2
 git submodule update --init --recursive
@@ -40,13 +40,13 @@ sim_vehicle.py -w
 
 ### Video Tutorial at https://youtu.be/m7hPyJJmWmU
 
-## Overview 
+### Overview 
 
 Robot simulation is an essential tool in every roboticist's toolbox. A well-designed simulator makes it possible to rapidly test algorithms, design robots, perform regression testing, and train AI system using realistic scenarios. Gazebo offers the ability to accurately and efficiently simulate populations of robots in complex indoor and outdoor environments. At your fingertips is a robust physics engine, high-quality graphics, and convenient programmatic and graphical interfaces. Best of all, Gazebo is free with a vibrant community.
 
 for more infromation on gazebo checkout http://gazebosim.org/
 
-## Install Gazebo 
+### Install Gazebo 
 
 Setup your computer to accept software from http://packages.osrfoundation.org:
 ```
@@ -72,7 +72,7 @@ sudo apt-get install gazebo11 libgazebo11-dev
 for more detailed instructions for installing gazebo checkout http://gazebosim.org/tutorials?tut=install_ubuntu
 
 
-## Install Gazebo plugin for APM (ArduPilot Master) :
+### Install Gazebo plugin for APM (ArduPilot Master) :
 ```
 cd ~
 git clone https://github.com/khancyr/ardupilot_gazebo.git
@@ -94,4 +94,8 @@ Set paths for models:
 ```
 echo 'export GAZEBO_MODEL_PATH=~/ardupilot_gazebo/models' >> ~/.bashrc
 . ~/.bashrc
+```
+## Setting the workspace
+```
+mkdir -p catkin_ws/src
 ```
