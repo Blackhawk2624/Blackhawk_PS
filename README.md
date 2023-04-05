@@ -1,6 +1,6 @@
 # Installation Instructions
 
-### Installing Ardupilot and MAVProxy Ubuntu 20.04
+## Installing Ardupilot and MAVProxy Ubuntu 20.04
 
 ### Video Tutorial at https://youtu.be/1FpJvUVPxL0
 
