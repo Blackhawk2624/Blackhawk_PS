@@ -106,5 +106,6 @@ catkin_make
 
 ```
 ## Note
-
+```
 1. Extract the content of default_params.zip in /home/username/ardupilot/Tools/autotest/default_params
+```
