@@ -36,7 +36,7 @@ Run SITL (Software In The Loop) once to set params:
 cd ~/ardupilot/ArduCopter
 sim_vehicle.py -w
 ```
-# Installing Gazebo and ArduPilot Plugin
+## Installing Gazebo and ArduPilot Plugin
 
 ### Video Tutorial at https://youtu.be/m7hPyJJmWmU
 
@@ -46,7 +46,7 @@ Robot simulation is an essential tool in every roboticist's toolbox. A well-desi
 
 for more infromation on gazebo checkout http://gazebosim.org/
 
-## Install Gazebo [***18.04-20.04***]
+## Install Gazebo 
 
 Setup your computer to accept software from http://packages.osrfoundation.org:
 ```
@@ -64,9 +64,6 @@ sudo apt update
 ```
 
 Install Gazebo:
-### Ubuntu [***18.04***]
-```
-sudo apt install gazebo9 libgazebo9-dev
 ```
 ### Ubuntu [***20.04***]
 ```
@@ -82,9 +79,6 @@ cd ~
 git clone https://github.com/khancyr/ardupilot_gazebo.git
 cd ardupilot_gazebo
 ```
-***Ubuntu 18.04 only*** checkout dev
-```
-git checkout dev
 ```
 build and install plugin
 ```
