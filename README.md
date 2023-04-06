@@ -107,8 +107,12 @@ cd catkin_ws/src
 git clone https://github.com/Blackhawk2624/Blackhawk_PS.git
 cd ..
 catkin_make
+
+## Environment Setup
+```
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
+```
 
 ```
 ## Note
