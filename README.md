@@ -99,7 +99,7 @@ Set paths for models:
 echo 'export GAZEBO_MODEL_PATH=~/ardupilot_gazebo/models' >> ~/.bashrc
 . ~/.bashrc
 ```
-## Setting the workspace
+## Setting up the workspace
 ```
 cd
 mkdir -p catkin_ws/src
@@ -107,6 +107,8 @@ cd catkin_ws/src
 git clone https://github.com/Blackhawk2624/Blackhawk_PS.git
 cd ..
 catkin_make
+echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 
 ```
 ## Note
