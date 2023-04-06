@@ -2,7 +2,7 @@
 
 ## Installing ROS
 
-Install ROS Noetic from 'http://wiki.ros.org/noetic/Installation/Ubuntu'
+Install ROS Noetic from http://wiki.ros.org/noetic/Installation/Ubuntu
 
 ## Installing Ardupilot and MAVProxy Ubuntu 20.04
 
