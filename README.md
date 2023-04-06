@@ -110,3 +110,16 @@ catkin_make
 1. Extract the content of default_params.zip in /home/username/ardupilot/Tools/autotest/default_params
 2. Replace /home/username/ardupilot/Tools/autotest/pysim/vehicleinfo.py file with vehicleinfo.py(present in this repository)
 ```
+## Running the world
+
+In Terminal 1
+```
+roslaunch iq_sim blackhawk.launch 
+```
+In Terminal 2
+```
+roscd iq_sim
+./blackhawk.sh
+```
+
+
