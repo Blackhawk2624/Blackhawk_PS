@@ -117,9 +117,9 @@ source ~/.bashrc
 
 ## Note
 
-1. Extract the content of default_params.zip in /home/username/ardupilot/Tools/autotest/default_params directory
+1. Extract the content of default_params.zip and paste gazebo-drone1.parm, gazebo-drone2.parm ... gazebo-drone12.parm in /home/username/ardupilot/Tools/autotest/default_params directory
 2. Replace /home/username/ardupilot/Tools/autotest/pysim/vehicleinfo.py file with vehicleinfo.py(present in this repository) file
-3. Extract the content of model_drones.zip in /home/username/.gazebo/models directory
+3. Extract the content of model_drones.zip and paste drone1, drone2 ... drone12 in /home/username/.gazebo/models directory
 
 ## Running the world
 
