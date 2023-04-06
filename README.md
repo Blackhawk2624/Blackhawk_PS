@@ -115,7 +115,6 @@ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-```
 ## Note
 ```
 1. Extract the content of default_params.zip in /home/username/ardupilot/Tools/autotest/default_params
