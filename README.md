@@ -131,6 +131,8 @@ In Terminal 2
 ```
 roscd iq_sim
 ./blackhawk.sh
+OR
+bash blackhawk.sh
 ```
 ## World
 ![iq](world.jpg)
