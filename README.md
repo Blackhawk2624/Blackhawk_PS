@@ -115,7 +115,7 @@ source ~/.bashrc
 ```
 1. Extract the content of default_params.zip in /home/username/ardupilot/Tools/autotest/default_params
 2. Replace /home/username/ardupilot/Tools/autotest/pysim/vehicleinfo.py file with vehicleinfo.py(present in this repository)
-3. Extract the content of model.zip in /home/username/.gazebo/models directory
+3. Extract the content of model_drones.zip in /home/username/.gazebo/models directory
 ```
 ## Running the world
 
