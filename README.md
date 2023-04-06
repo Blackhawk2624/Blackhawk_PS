@@ -132,6 +132,9 @@ In Terminal 2
 roscd iq_sim
 ./blackhawk.sh
 ```
+## World
+![iq](world.jpg)
+
 ## References
 
 1. https://github.com/Intelligent-Quads/iq_tutorials
