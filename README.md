@@ -132,5 +132,10 @@ In Terminal 2
 roscd iq_sim
 ./blackhawk.sh
 ```
+## References
 
+1. https://github.com/Intelligent-Quads/iq_tutorials
+2. https://youtu.be/r15Tc6e2K7Y
+3. https://youtu.be/UWsya46ZG4M
+4. https://youtu.be/kcCL0w4NbIc
 
